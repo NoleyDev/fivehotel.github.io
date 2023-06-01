@@ -1,0 +1,54 @@
+----------------------------------------------------------
+
+Rancangan Data hotel
+
+
+Nama kamar & Tipe kamar: -Low
+				 -Standart		
+				 -High
+
+
+Nama hotel: Hotel Five
+
+Jumlah stok kamar masing-masing tipe: 20 Stok
+
+Jumlah Resepsionis: 2
+
+Admin: 1
+
+Fasilitas hotel: -Kolam Renang
+	     	     -Fitnes
+	           -Taman bunga
+	           -Restaurant
+		     -Cafe
+		     -Pijat rileks
+
+Fasilitas kamar Low: -Almari
+			   -Lampu tidur
+			   -Ac
+			   -Wifi
+
+Fasilitas kamar Standart: -Almari
+			        -Lampu tidur
+			        -Ac
+				  -Tv Led 30 inc
+				  -Wifi
+
+Fasilitas kamar High: -Almari
+			    -Lampu tidur
+			    -Ac
+			    -Dispenser
+		          -Tv Led 40 inc
+			    -Wifi
+			    -Antar makanan dan minuman
+
+Harga kamar Low: Rp.200.000/malam
+Harga kamar Standart: Rp.400.000/malam
+Harga kamar High: Rp.600.000/malam
+
+
+---------------------------------------------------------
+
+
+
+

@@ -1,0 +1,366 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+
+
+/* navbar */
+.navigasi{
+    padding-top: 20px;
+    background-color: white;
+}
+/* end navbar */
+
+
+
+/* hero section */
+.gambar{
+    height: 500px;
+    width: 1300px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 15px;
+}
+
+.gambar::after{
+    content: '';
+    display: block;
+    width: 67%;
+    height: 100%;
+    background-image: linear-gradient(to right, #b3f8d6, #86c5ea, rgba(0,0,0,0));
+    position: relative;
+    bottom: 500px;
+    border-radius: 15px;
+}
+
+.tulisan{
+    position: relative;
+    bottom: 430px;
+    left: 100px;
+}
+
+
+.icon{
+    height: 40px;
+    width: 40px;
+    display: flex;
+    padding-right: 10px;
+}
+/* end hero section */
+
+
+
+/* panel */
+.info-panel{
+   background-color: white;
+   border-radius: 15px;
+   position: relative;
+   bottom: 100px;
+}
+
+.gambarpanel{
+    height: 31px;
+    width: 31px;
+    margin-left: 85px;
+}
+
+.tekspanel1{
+    padding-left: 63px;
+  
+}
+
+
+.tekspanel2{
+    padding-left: 64px;
+}
+
+.tekspanel3{
+    padding-left: 96px;
+    
+}
+
+.tekspanel4{
+    padding-left: 87px;
+    
+}
+
+.panelharga{
+    position: relative;
+    bottom: 20px;
+    left: 200px;
+}
+
+.panelgambar{
+    position: relative;
+    top: 35px;
+    left: 40px;
+}
+
+.seemore{
+    word-spacing: 360px;
+}
+/* end panel */
+
+/* Fasilitas Hotel */
+.gambarfasilitashotel{
+    width: 1000px;
+}
+/* end Fasilitas Hotel */
+
+
+/* panel fasilitas */
+.panelfasilitas{
+    height: 550px;
+    position: absolute;
+    background-image: linear-gradient(to bottom, #b3f8d6, #0096ed);
+    border-radius: 30px;
+    bottom: -900px;
+    opacity: 20%;
+}
+/* end panel fasilitas */
+
+
+/* live chat */
+.livechaticon{
+    width: 40px;
+    height: 40px;
+}
+
+.panellivechat{
+    height: 400px;
+    width: 500px;
+    background-image: linear-gradient(to right, #b3f8d6, #0e93e0);
+    opacity: 99%;
+    border-radius: 30px;
+    background-size: 150%;
+    animation: gradient-animation 2s infinite alternate;
+}
+
+.gambarlivechat{
+    height: 400px;
+    width: 540px;
+    border-radius: 30px;
+    position: relative;
+    bottom: 180px;
+    left: 20px;
+}
+/* end live chat */
+
+
+/* contact */
+.contact{
+    background-image: linear-gradient(to right, #b3f8d6, #2b9ddf);
+    width: 1519px;
+    height: 600px;
+    background-size: 150%;
+    animation: gradient-animation 5s infinite alternate;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: right;
+    }
+
+    100% {
+        background-position: left;
+    }
+}
+
+.gambarcontact{
+    height: 380px;
+    width: 560px;
+    position: relative;
+    top: 70px;
+    border-radius: 30px;
+}
+
+.judulcontact{
+    padding-top: 70px;
+}
+
+.tombolcontact{
+    background-color: #f38c39;
+    color: white;
+    border-radius: 10px;
+}
+/* end contact */
+
+
+/* about & footer */
+footer{
+    background-color: #3a4166;
+}
+
+.about{
+    padding-top: 100px;
+    text-align: left;
+}
+
+.tautan{
+    position: relative;
+    left: 200px;
+}
+
+.tautan2{
+    position: relative;
+    left: 100px;
+}
+
+.tautanA{
+    text-decoration: none;
+    opacity: 60%;
+}
+
+.infofooter{
+    position: relative;
+    right: 100px;
+}
+/* end about & footer */
+
+
+
+.gambarfasilitaskamar{
+    width: 1000px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS halaman kamarfasilitas */
+
+
+
+/*  tulisan tipe kamar  */
+.tulisantipekamar{
+    opacity: 50%;
+    font-size: 15px;
+}
+
+.tulisanfasilitaskamar{
+    font-size: 14px;
+}
+
+.iconfasilitaskamar{
+    width: 20px;
+    height: 20px;
+}
+
+/* end tulisan tipe kamar */
+
+
+
+
+
+
+
+
+
+
+/* Style halaman pesan */
+.kartu{
+    border-radius: 15px;
+}
+
+
+.bgpesan{
+    width: 480px;
+    height: 550px;
+    border-radius: 15px;    
+}
+
+
+.pesankamar{
+    width: 287px;
+    height: 592px;
+    padding-bottom: 20px;
+    border-radius: 15px;
+}
+
+.carousel{
+    border-radius: 15px;
+}
+
+/* end style halaman pesan */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+
+/* end responsive */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* dark mode */
+#darkmode{
+    background-color: rgb(43, 45, 48);
+    color: rgb(237, 237, 237);
+}
+
+#darkmode button{
+    background-color: rgb(255, 252, 252);
+}
+
+#darkmode table{
+    color: rgb(237, 237, 237);
+    background-color: rgb(38, 38, 38);
+}
+
+#darkmode th{
+    color: rgb(255, 255, 255);
+}
+
+
+
+
+
+
+

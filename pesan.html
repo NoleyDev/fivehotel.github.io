@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pesan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous" />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+
+
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg fw-bold bg-transparent navigasi">
+          <div class="container">
+            <a class="navbar-brand" href="halaman_utama.html">
+              <h4 class="fw-bold">
+                Five Hotel
+              </h4>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="halaman_utama.html">Home</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      <!-- end navbar -->
+
+    <!-- card pesan -->
+    <div class="container shadow-lg p-4 kartu">
+      <div class="card text-center">
+        <div class="card-body">
+          <h2 class="card-title fw-bold">Silahkan Pesan Kamar</h2>
+          <p class="card-text" style="opacity: 50%;">Mohon isi data dengan benar.</p>
+
+            <br>
+            <br>
+
+          <!-- form pasan -->
+          <div class="container">
+            <div class="row justify-content-start">
+                <div class="col-9">
+                <form>
+                   
+                    <div class="row">
+                        <div class="col-6 text-start mb-3">
+                            <label for="tanggalcekin" class="form-label fw-bold">Tanggal Cek In
+                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                                </svg>
+                            </label>
+                            <input type="date" class="form-control" id="tanggalcekin" name="tanggalcekin" required />
+                        </div>
+                        <div class="col-6 text-start mb-3">
+                            <label for="tanggalcekout" class="form-label fw-bold">Tanggal Cek Out
+                                <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                                <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                                </svg>
+                            </label>
+                            <input type="date" class="form-control" id="tanggalcekout" name="tanggalcekout" required />
+                        </div>
+                    </div>
+
+                    <br>
+                    <br>
+                    <br>
+                        
+
+                <div class="mb-3 text-start">
+                    <label for="namapemesan" class="form-label fw-bold">Nama Pemesan
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </label>
+                    <input type="text" class="form-control" id="namapemesan" name="namapemesan" required />
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="namatamu" class="form-label fw-bold">Nama Tamu
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </label>
+                    <input type="text" class="form-control" id="namatamu" name="namatamu" required />
+                </div>
+                <div class="mb-3 text-start">
+                    <label for="nohp" class="form-label fw-bold">No HP
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </label>
+                    <input type="text" class="form-control" id="nohp" name="nohp" required />
+                </div>
+                <div class="form-group mb-3 text-start">
+                    <label for="tipekamar" class="form-label fw-bold">Tipe Kamar
+                        <svg xmlns="http://www.w3.org/2000/svg" width="7" height="7" fill="currentColor" class="bi bi-asterisk text-danger" viewBox="0 0 16 16">
+                        <path d="M8 0a1 1 0 0 1 1 1v5.268l4.562-2.634a1 1 0 1 1 1 1.732L10 8l4.562 2.634a1 1 0 1 1-1 1.732L9 9.732V15a1 1 0 1 1-2 0V9.732l-4.562 2.634a1 1 0 1 1-1-1.732L6 8 1.438 5.366a1 1 0 0 1 1-1.732L7 6.268V1a1 1 0 0 1 1-1z"/>
+                        </svg>
+                    </label>
+                    <select class="form-control" name="tipekamar" required>
+                      <option value="" selected disabled class="fw-bold" style="opacity: 50%;">Pilih Tipe Kamar</option>
+                      <option value="low">Low</option>
+                      <option value="medium">Medium</option>
+                      <option value="high">High</option>
+                    </select>
+                </div>
+
+                <div class="d-grid gap-2">
+                <button type="submit" class="btn btn-primary fw-bold" name="submit">Pesan</button>
+                </div>
+
+                </form>
+                </div>
+
+                <div class="col-3">
+                  <!-- slide -->
+                  <div id="carouselExampleDark" class="carousel carousel-dark slide  shadow-lg" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active" data-bs-interval="10000">
+                        <img class="d-block pesankamar" src="img/pesankamarlow.png" alt="...">
+                        
+                      </div>
+                      <div class="carousel-item" data-bs-interval="2000">
+                        <img class="d-block pesankamar" src="img/pesankamarmedium.png" alt="...">
+                       
+                      </div>
+                      <div class="carousel-item">
+                        <img class="d-block pesankamar" src="img/pesankamarhigh.png" alt="...">
+                        
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                   
+                    </button>
+                  </div>
+                  <!-- end slide -->
+                </div>
+            </div>    
+          </div>
+          <!-- end form pesan -->
+        </div>
+      </div>
+    </div>
+    <!-- end card pesan -->
+
+
+    <br>
+    <br>
+
+
+    <!-- about & footer-->
+    <footer class="text-white">
+      <div class="row about">
+        <div class="col-3 tautan">
+          <h6 class="fw-bold">Layanan Kami</h6>
+          <br>
+          <a href="" class="tautanA text-white">Pesan Kamar</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Fasilitas Hotel</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Contact</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">About</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Other</a>
+        </div>
+        <div class="col-3 tautan2">
+          <h6 class="fw-bold">Fasilitas Hotel</h6>
+          <br>
+          <a href="" class="tautanA text-white">Kolam Renang</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Taman Bunga</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Fitnes</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Restaurant</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Pijat Rileks</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Cafe</a>
+        </div>
+        <div class="col-3 tautan3">
+          <h6 class="fw-bold">Fasilitas Kamar</h6>
+          <br>
+          <a href="" class="tautanA text-white">Kamar Low</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Kamar Medium</a>
+          <br>
+          <br>
+          <a href="" class="tautanA text-white">Kamar High</a>
+        </div>
+        <div class="col-3 infofooter">
+          <h4 class="fw-bold">Five Hotel</h4>
+          <br>
+          <p>Lorem ipsum dolor sit amet consectetur<br> Lorem ipsum dolor sit amet consectetur adipisicing<br> Lorem, ipsum dolor.<br>
+            <br>
+            Jl. Kelapa Muda<br>No. 01 Semanding, Tuban,<br>Semanding, Daerah seribuGoa Tuban,<br> 00123<br>
+            <br>
+            Telepon: 012-34567890<br>
+            WhatsApp: 089508776546<br>
+            Telegram: @FiveHotel_bot</p>
+        </div>
+    
+        <p class="fw-bold p-2 text-center border-top">Copyright ©2022 FiveHotel <br>
+          <span class="fw-lighter">Layanan dan Ketentuan | Kebijakan Privasi | Hotel Service</span></p>
+      </div>
+
+      
+    </footer>
+    <!-- end about & footer-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+  </body>
+</html>
